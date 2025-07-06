@@ -1,0 +1,19 @@
+.gallery {
+    padding: 24px 156px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 24px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.gallery-item {
+    display: block;
+    width: calc((100% - 48px) / 3);
+}
